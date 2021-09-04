@@ -1,6 +1,6 @@
 {
   "name": "@royalarchives/compatibility-synology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Synology DS Audio smartphone apps and AudioStation web interface with Open Audio Server",
   "main": "index.js",
   "scripts": {
