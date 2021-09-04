@@ -1,6 +1,6 @@
-# Server: Synology
+# Compatibility: Synology
 
-A module for [Open Audio Server](https://github.com/server/server) that adds compatibility with the Synology DS Audio apps for iPhone and Android, and with some additional work the [Synology Audiostation](https://www.synology.com/en-us/dsm/feature/audio_station) web interface.
+A module for [RoyalArchives](https://github.com/royalarchives/server) that adds compatibility with the Synology DS Audio apps for iPhone and Android, and with some additional work the [Synology Audiostation](https://www.synology.com/en-us/dsm/feature/audio_station) web interface.
 
 ### Documentation
 
