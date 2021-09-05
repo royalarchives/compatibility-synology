@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "royalArchives": {
+    "type": "compatibility",
     "description": "Adds compatibility with the Synology Audio, Video and File Station web apps and DS mobile apps",
     "browser": "/dsaudio",
     "icon": "",
@@ -14,24 +15,31 @@
       "DS Audio mobile apps": [
         {
           "group": "software",
-          "link": "https://www.synology.com/en-us/support/download/DS920+#androids",
-          "icon": "firefox-browser"
+          "url": "https://www.synology.com/en-us/support/download/DS920+#androids",
+          "icon": "fab android"
         },
         {
           "group": "software",
-          "link": "https://play.google.com/store/apps/details?id=com.synology.DSaudio",
-          "icon": "google-play"
+          "url": "https://play.google.com/store/apps/details?id=com.synology.DSaudio",
+          "icon": "fab google-play"
         },
         {
           "group": "software",
-          "link": "https://apps.apple.com/us/app/ds-audio/id321495303",
-          "icon": "app-store"
+          "url": "https://apps.apple.com/us/app/ds-audio/id321495303",
+          "icon": "fab app-store"
         }
       ],
-      "Audio Station web interface": [
+      "DSM web interface": [
         {
-          "group": "browser",
-          "link": "https://play.google.com/store/apps/details?id=com.synology.DSaudio",
+          "group": "keeper",
+          "name": "AudioStation",
+          "url": "/dsaudio",
+          "icon": "sticky-note"
+        },
+        {
+          "group": "keeper",
+          "name": "FileStation",
+          "url": "/dsfile",
           "icon": "sticky-note"
         }
       ]
