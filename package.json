@@ -34,13 +34,13 @@
           "group": "keeper",
           "name": "AudioStation",
           "url": "/dsaudio",
-          "icon": "sticky-note"
+          "icon": "fas sticky-note"
         },
         {
           "group": "keeper",
           "name": "FileStation",
           "url": "/dsfile",
-          "icon": "sticky-note"
+          "icon": "fas sticky-note"
         }
       ]
     }
